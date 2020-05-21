@@ -7,7 +7,7 @@
 
 <script>
 // @ is an alias to /src
-
+require('normalize.css')
 export default {
   name: 'Home',
   components: {

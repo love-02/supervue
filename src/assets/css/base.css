@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float:right;
+}
+.clear{
+    content: '';
+    display: block;
+    clear: both;
+}
