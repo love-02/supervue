@@ -21,9 +21,8 @@
   </div>
 </template>
 <script>
-import TabBarVue from "components/common逻辑/tabbar/TabBar.vue";
-import TabBarItemVue from "components/common逻辑/tabbar/TabBarItem.vue";
-
+import TabBarVue from '../../common逻辑/tabbar/TabBar.vue';
+import TabBarItemVue from '../../common逻辑/tabbar/TabBarItem.vue';
 export default {
   name: "MainTabBar",
   components: {

@@ -1,6 +1,8 @@
 <template>
   <div id="app">
+    <keep-alive exclude="Detail">
     <router-view></router-view>
+    </keep-alive>
     <main-tab-bar-vue>
 
     </main-tab-bar-vue>
@@ -8,9 +10,7 @@
 </template>
 
 <script>
-
-import MainTabBarVue from '../../../vue-cli/cli2的使用/tabbar/src/components/main/MainTabBar.vue';
-
+import MainTabBarVue from './components/content业务/main/MainTabBar.vue';
 
 export default {
   name: "App",

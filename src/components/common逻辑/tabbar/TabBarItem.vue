@@ -48,13 +48,13 @@ export default {
 }
 @font-face {
   font-family: "iconfont";
-  src: url("assets/iconfont/iconfont.eot");
-  src: url("assets/iconfont/iconfont.eot?#iefix")
+  src: url("~assets/iconfont/iconfont.eot");
+  src: url("~assets/iconfont/iconfont.eot?#iefix")
       format("embedded-opentype"),
-    url("assets/iconfont/iconfont.woff2") format("woff2"),
-    url("assets/iconfont/iconfont.woff") format("woff"),
-    url("assets/iconfont/iconfont.ttf") format("truetype"),
-    url("assets/iconfont/iconfont.svg#iconfont") format("svg");
+    url("~assets/iconfont/iconfont.woff2") format("woff2"),
+    url("~assets/iconfont/iconfont.woff") format("woff"),
+    url("~assets/iconfont/iconfont.ttf") format("truetype"),
+    url("~assets/iconfont/iconfont.svg#iconfont") format("svg");
 }
 .iconfont {
   font-family: "iconfont" !important;
